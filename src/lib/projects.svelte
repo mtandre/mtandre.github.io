@@ -17,18 +17,22 @@
 </script>
 
 <main>
-  <ul>
-    {#each links as link}
-      <li>
-        <a href={link.url}>
-          {link.title}
-        </a>
-        {#if link.description}
-          <p>{@html link.description}</p>
-        {/if}
-      </li>
-    {/each}
-  </ul>
+  {#if links.length > 0}
+    <ul>
+      {#each links as link}
+        <li>
+          <a href={link.url}>
+            {link.title}
+          </a>
+          {#if link.description}
+            <p>{@html link.description}</p>
+          {/if}
+        </li>
+      {/each}
+    </ul>
+  {:else}
+    ...
+  {/if}
 </main>
 
 <style>

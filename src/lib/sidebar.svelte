@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let me: string = '';
+  export let me = '';
 </script>
 
 <aside>

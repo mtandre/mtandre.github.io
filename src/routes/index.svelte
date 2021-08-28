@@ -10,5 +10,3 @@
 
 <Sidebar {me} />
 <Projects />
-
-
