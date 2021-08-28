@@ -1,13 +1,18 @@
 <script lang="ts">
-  import type { LinkType } from 'src/routes/links.json';
-
   import { onMount } from 'svelte';
+  import { csvParse } from 'd3-dsv';
+  interface LinkType {
+    timestamp?: string;
+    url: string;
+    title: string;
+    description?: string;
+  }
 
   let links: LinkType[] = [];
 
   onMount(async () => {
-    const res = await fetch('/links.json');
-    links = await res.json();
+    const res = await fetch('/links.csv');
+    links = csvParse(await res.text());
   });
 </script>
 
@@ -15,7 +20,7 @@
   <ul>
     {#each links as link}
       <li>
-        <a target="_blank" href={link.url}>
+        <a href={link.url}>
           {link.title}
         </a>
         {#if link.description}
