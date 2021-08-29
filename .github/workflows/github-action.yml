@@ -46,3 +46,11 @@ jobs:
           name: build
           path: |
             build
+
+      - name: commit build
+        run: |
+          git config --global user.name 'Michael Andre'
+          git config --global user.email 'mtandre@users.noreply.github.com'
+          git checkout build
+          git commit -am "Automated build"
+          git push
