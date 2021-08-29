@@ -38,7 +38,7 @@ jobs:
         run: npm run build
 
       - name: list build files
-        run: apt-get install tree && tree build/
+        run: sudo apt-get install -y -qq -o=Dpkg::Use-Pty=0 tree && tree build/
 
       - name: archive build
         uses: actions/upload-artifact@v2
