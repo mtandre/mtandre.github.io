@@ -37,5 +37,12 @@ jobs:
       - name: build
         run: npm run build
 
-      - name: build output files
-        run: ls -R build/
+      - name: list build files
+        run: apt-get install tree && tree build/
+
+      - name: archive build
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: |
+            build
