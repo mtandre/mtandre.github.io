@@ -37,5 +37,5 @@ jobs:
       - name: build
         run: npm run build
 
-      - name: build check
-        run: ls && ls build/
+      - name: build output files
+        run: ls -R build/
