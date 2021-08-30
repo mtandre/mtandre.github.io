@@ -36,7 +36,9 @@ jobs:
             build
 
       - name: clean
-        run: rm -r * .*
+        run: |
+          shopt -s dotglob
+          rm -r *
 
       - name: fetch build
         uses: actions/download-artifact@v2
