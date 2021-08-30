@@ -35,12 +35,18 @@ jobs:
           path: |
             build
 
+      - name: clean
+        run: |
+          rm -r !(build)
+          cp -a build/. .
+          rm -r build/
+
       - name: commit build
         run: |
           git config --global user.name 'Michael Andre'
           git config --global user.email 'mtandre@users.noreply.github.com'
           git fetch
           git switch build
-          git add build/
+          git add .
           git commit -m "Automated build"
           git push
