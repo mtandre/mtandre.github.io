@@ -37,7 +37,7 @@ jobs:
 
       - name: clean
         run: |
-          rm -r !(build)
+          find . \! -name 'build/' -delete
           cp -a build/. .
           rm -r build/
 
