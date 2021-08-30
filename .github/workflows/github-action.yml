@@ -37,7 +37,7 @@ jobs:
 
       - name: clean
         run: |
-          find . \! -name 'build/' -delete
+          shopt -s extglob && rm -r !(build)
           cp -a build/. .
           rm -r build/
 
