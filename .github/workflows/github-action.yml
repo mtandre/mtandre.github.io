@@ -1,0 +1,44 @@
+name: deploy gh-pages
+
+on:
+  [push]
+  # push:
+  #   branches:
+  #     - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📬 checkout
+        uses: actions/checkout@v2
+
+      - name: 🐠 use node v14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - name: 🚒 install node_modules
+        run: npm ci
+
+      - name: 🔧 build
+        run: |
+          npm run build
+          touch build/.nojekyll
+
+      - name: 🧶 list build files
+        run: sudo apt-get install -y -qq -o=Dpkg::Use-Pty=0 tree && tree build/
+
+      - name: 🚚 archive build
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: |
+            build
+
+      - name: 🛫 Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: build

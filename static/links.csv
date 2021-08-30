@@ -1,0 +1,51 @@
+timestamp,url,title,description
+,https://www.revealnews.org/blog/new-database-expands-public-access-to-information-about-public-records/,New database expands public access to information on public records,"Database: <a href=""https://www.muckrock.com/place/"">MuckRock Places</a>"
+,https://www.jsonline.com/story/life/food/2017/12/05/meet-holiday-cookie-contest-judges/903127001/,Meet the 2017 Holiday Cookie Contest judges,"Tested: <a href=""https://www.jsonline.com/story/life/food/recipes/2017/12/05/white-chocolate-dipped-brown-butter-ginger-cookies-pistachio/898377001/"">White Chocolate-Dipped Brown Butter Ginger Cookies with Pistachio</a> & <a href=""https://www.jsonline.com/story/life/food/recipes/2017/12/05/gingerbread-snowmen/893955001/"">Gingerbread Snowmen</a>"
+,https://www.jsonline.com/story/money/2017/11/07/peak-season-deer-accidents-wisconsin/814512001/,This is the week drivers typically hit the most deer on Wisconsin roads
+,http://www.mikeandmeghanare.cool,My wedding website
+,https://projects.jsonline.com/,Projects Server Index
+,https://bl.ocks.org/mtandre,Bl.ocks: Playing with d3.js
+,https://apps.jsonline.com/cookbook,The Cookbook: Newsroom wiki,"An mkdocs set of guides and how-to's for newsroom production work built with a CI pipeline and uploaded to an S3 bucket."
+,https://github.com/datahub/data-sources,A running list of Wisconsin data sources
+,https://github.com/datahub/mandre-bar,Mandre Bar: Chrome Extension for jsonline.com production
+,https://projects.jsonline.com/news/2017/4/27/intro/index.html,What Happened to Us?,"<a href=""https://featuresjournalism.org/2018/06/12/winners-of-2018-sfj-excellence-in-features-awards/"">Second Place: SFJ 2018 Awards - Diversity in Digital Features</a>"
+,https://projects.jsonline.com/news/2017/3/15/fighting-the-fog-of-mental-illness.html,Fighting the fog of mental illness
+,https://projects.jsonline.com/tips/index.html,Journal Sentinel newsroom tips page
+,https://projects.jsonline.com/topics/wisconsin-trails/on-the-road.html,Wisconsin Trails On The Road overview page
+,https://projects.jsonline.com/apps/BeerNear/,BeerNear: A guide to Wisconsin breweries,"<a href=""https://featuresjournalism.org/2017/06/13/congratulations-to-2017-excellence-in-features-writing-winners/"">First Place: SFJ 2017 Awards - Digital Innovation</a>"
+,https://github.com/mtandre/gsheet-json-s3,Google Apps Script to export data as JSON
+,https://datahub.github.io/ccap/,Newsroom Wisconsin Circuit Court database docs
+,https://github.com/datahub/apps.jsonline.com,Hompage-cop, story-river, and buster slackbots,"An internal server that hosts private content and several Slackbots: story-river - a live feed of the content published across the Wisconsin network, homepage-cop - alerts producers when content goes stale on the homepage, buster - easier content cache busting."
+,https://github.com/datahub/calls-for-service,Milwaukee Fire and Police calls for service database
+,https://projects.jsonline.com/shared/header/v3/readme.html,jsonline.com branded header for off-platform pages
+,https://projects.jsonline.com/apps/summerfest-2017/,Journal Sentinel 2017 Summerfest mobile schedule
+,https://projects.jsonline.com/news/2017/2/21/february-2017-milwaukee-area-primary-election-results.html,February 2017 Wisconsin and Milwaukee-area primary election results
+,https://projects.jsonline.com/news/2016/9/25/Wisconsin-faces-billions-in-retiree-obligations.html#map-interactive,Wisconsin faces billions in retiree obligations
+,https://52g2a21hph.execute-api.us-east-1.amazonaws.com/prod/rss/packers,RSS to JSON Service
+,http://mtandre.github.io/wedding1/,A friend's wedding website
+,https://github.com/datahub/interactive-starter,Webpack starter kit for interactives
+,https://projects.jsonline.com/database/2017/5/Population-estimates-cities-towns-villages-2016.html#!/popestimate2016.desc.1/,Datapost example: Population estimates for cities, towns and villages 2010 - 2016
+,http://calendar.cincinnati.com/,Cincinnati Events Calendar
+,https://projects.jsonline.com/news/2016/10/22/juveniles-sentenced-to-life-in-wisconsin-have-little-chance-for-release.html,Juvenile offenders in legal limbo despite Supreme Court rulings
+,https://projects.jsonline.com/entertainment/2016/11/27/100-books-for-holiday-gift-giving.html,100 books for holiday gift giving in 2016
+,https://www.jsonline.com/story/life/green-sheet/2017/09/08/news-quiz-test-your-knowledge-weeks-news/105307316/,jsonline.com news quiz generator example
+,https://www.jsonline.com/story/news/local/2016/08/20/sex-offender-ordinance-worked-planned-putting-public-greater-risk/88948028/,Sex offender ordinance hasn’t worked as planned, putting public at greater risk
+,https://github.com/datahub/MKE-Offender-Search,iPython notebooks for scraping Wisconsin Sex Offender data
+,https://projects.jsonline.com/entertainment/2016/12/25/2016-christmas-artwork.html,2016 Christmas Artwork Contest
+,https://mtandre.github.io/mjs-bookmarklets/,MJS Clickability CMS Bookmarklets
+,http://mtandre.github.io/jstalks/,JS Talks: The Milwaukee Bucks Arena
+,https://projects.jsonline.com/news/2016/11/8/november-2016-wisconsin-milwaukee-election-results.html,November 2016 Wisconsin and Milwaukee election results
+,https://github.com/datahub/wisconsin-state-legislature-info,A tool to parse and generate a data file for Wisconsin State Legislature.
+,https://github.com/datahub/tv-rotator,Mac App to run on newsroom TVs rotating through newsroom metrics and local websites
+,http://archive.jsonline.com/news/statepolitics/2016-Wisconsin-Primary-Election-Exit-Polls-374606101.html/,2016 Wisconsin Primary Election Exit Polls
+,http://elex.dhb.io/admin,Wisconsin Election Service admin for live election data
+,http://www.jsonline.com/pages/interactives/mjs-newsroom-staff/,MJS Newsroom staff generated page
+,https://projects.jsonline.com/apps/Land-and-Space-Development-Database/,Milwaukee Real Estate Developments Database
+,https://chemicalcharts.com/,Action Pump Co. chemical compatibility pump finder
+,https://twitter.com/wiffleballmike/status/598164295529009152,Journal Sentinel social share card generator
+,https://projects.jsonline.com/apps/Milwaukee-Homicide-Database/,Milwaukee Homicides Database
+,https://web.archive.org/web/20130305033102/http://musg.mu.edu/eventfunding.shtml,Marquette University Student Government
+,https://web.archive.org/web/20120209050234/http://marquettetribune.org/,Marquette Tribune
+,https://web.archive.org/web/20120210143630/http://marquettejournal.org/,Marquette Journal
+,https://web.archive.org/web/20130305033058/http://marquettetv.org/,Marquette TV
+,https://web.archive.org/web/20120229221147/http://www.marquetteradio.org/,Marquette Radio
