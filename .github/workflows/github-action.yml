@@ -11,46 +11,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout
+      - name: 📬 checkout
         uses: actions/checkout@v2
 
-      - name: use node v14
+      - name: 🐠 use node v14
         uses: actions/setup-node@v2
         with:
           node-version: '14.x'
 
-      - name: install node_modules
+      - name: 🚒 install node_modules
         run: npm ci
 
-      - name: build
+      - name: 🔧 build
         run: npm run build
 
-      - name: list build files
+      - name: 🧶 list build files
         run: sudo apt-get install -y -qq -o=Dpkg::Use-Pty=0 tree && tree build/
 
-      - name: archive build
+      - name: 🚚 archive build
         uses: actions/upload-artifact@v2
         with:
           name: build
           path: |
             build
 
-      - name: clean
-        run: |
-          shopt -s dotglob
-          rm -r *
-
-      - name: fetch build
-        uses: actions/download-artifact@v2
+      - name: 🛫 Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          name: build
-
-      - name: commit build
-        run: |
-          git config --global user.name 'Michael Andre'
-          git config --global user.email 'mtandre@users.noreply.github.com'
-          git fetch
-          git switch build
-          git add .
-          git commit -m "Automated build"
-          git push
+          branch: gh-pages
+          folder: build
