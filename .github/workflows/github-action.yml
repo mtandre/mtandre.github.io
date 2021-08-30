@@ -36,11 +36,12 @@ jobs:
             build
 
       - name: clean
-        run: |
-          shopt -s extglob 
-          "rm -r !(build)"
-          cp -a build/. .
-          rm -r build/
+        run: rm -r .
+
+      - name: fetch build
+        uses: actions/download-artifact@v2
+        with:
+          name: build
 
       - name: commit build
         run: |
