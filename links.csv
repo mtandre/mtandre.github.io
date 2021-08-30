@@ -1,4 +1,7 @@
 timestamp,url,title,description
+2020-11-03,https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html,2020 General Election
+2019-06-06,https://www.nytimes.com/interactive/2019/nyregion/nyc-pride-identity.html,#whoIAm share cards
+2018-11-06,https://www.nytimes.com/interactive/2018/11/06/us/elections/results-house-elections.html, 2018 Midterm Election Results 
 ,https://www.revealnews.org/blog/new-database-expands-public-access-to-information-about-public-records/,New database expands public access to information on public records,"Database: <a href=""https://www.muckrock.com/place/"">MuckRock Places</a>"
 ,https://www.jsonline.com/story/life/food/2017/12/05/meet-holiday-cookie-contest-judges/903127001/,Meet the 2017 Holiday Cookie Contest judges,"Tested: <a href=""https://www.jsonline.com/story/life/food/recipes/2017/12/05/white-chocolate-dipped-brown-butter-ginger-cookies-pistachio/898377001/"">White Chocolate-Dipped Brown Butter Ginger Cookies with Pistachio</a> & <a href=""https://www.jsonline.com/story/life/food/recipes/2017/12/05/gingerbread-snowmen/893955001/"">Gingerbread Snowmen</a>"
 ,https://www.jsonline.com/story/money/2017/11/07/peak-season-deer-accidents-wisconsin/814512001/,This is the week drivers typically hit the most deer on Wisconsin roads
@@ -15,7 +18,7 @@ timestamp,url,title,description
 ,https://projects.jsonline.com/apps/BeerNear/,BeerNear: A guide to Wisconsin breweries,"<a href=""https://featuresjournalism.org/2017/06/13/congratulations-to-2017-excellence-in-features-writing-winners/"">First Place: SFJ 2017 Awards - Digital Innovation</a>"
 ,https://github.com/mtandre/gsheet-json-s3,Google Apps Script to export data as JSON
 ,https://datahub.github.io/ccap/,Newsroom Wisconsin Circuit Court database docs
-,https://github.com/datahub/apps.jsonline.com,Hompage-cop, story-river, and buster slackbots,"An internal server that hosts private content and several Slackbots: story-river - a live feed of the content published across the Wisconsin network, homepage-cop - alerts producers when content goes stale on the homepage, buster - easier content cache busting."
+,https://github.com/datahub/apps.jsonline.com,"Hompage-cop, story-river, and buster slackbots","An internal server that hosts private content and several Slackbots: story-river - a live feed of the content published across the Wisconsin network, homepage-cop - alerts producers when content goes stale on the homepage, buster - easier content cache busting."
 ,https://github.com/datahub/calls-for-service,Milwaukee Fire and Police calls for service database
 ,https://projects.jsonline.com/shared/header/v3/readme.html,jsonline.com branded header for off-platform pages
 ,https://projects.jsonline.com/apps/summerfest-2017/,Journal Sentinel 2017 Summerfest mobile schedule
@@ -24,12 +27,12 @@ timestamp,url,title,description
 ,https://52g2a21hph.execute-api.us-east-1.amazonaws.com/prod/rss/packers,RSS to JSON Service
 ,http://mtandre.github.io/wedding1/,A friend's wedding website
 ,https://github.com/datahub/interactive-starter,Webpack starter kit for interactives
-,https://projects.jsonline.com/database/2017/5/Population-estimates-cities-towns-villages-2016.html#!/popestimate2016.desc.1/,Datapost example: Population estimates for cities, towns and villages 2010 - 2016
+,https://projects.jsonline.com/database/2017/5/Population-estimates-cities-towns-villages-2016.html#!/popestimate2016.desc.1/,"Datapost example: Population estimates for cities, towns and villages 2010 - 2016"
 ,http://calendar.cincinnati.com/,Cincinnati Events Calendar
 ,https://projects.jsonline.com/news/2016/10/22/juveniles-sentenced-to-life-in-wisconsin-have-little-chance-for-release.html,Juvenile offenders in legal limbo despite Supreme Court rulings
 ,https://projects.jsonline.com/entertainment/2016/11/27/100-books-for-holiday-gift-giving.html,100 books for holiday gift giving in 2016
 ,https://www.jsonline.com/story/life/green-sheet/2017/09/08/news-quiz-test-your-knowledge-weeks-news/105307316/,jsonline.com news quiz generator example
-,https://www.jsonline.com/story/news/local/2016/08/20/sex-offender-ordinance-worked-planned-putting-public-greater-risk/88948028/,Sex offender ordinance hasn’t worked as planned, putting public at greater risk
+,https://www.jsonline.com/story/news/local/2016/08/20/sex-offender-ordinance-worked-planned-putting-public-greater-risk/88948028/,"Sex offender ordinance hasn’t worked as planned, putting public at greater risk"
 ,https://github.com/datahub/MKE-Offender-Search,iPython notebooks for scraping Wisconsin Sex Offender data
 ,https://projects.jsonline.com/entertainment/2016/12/25/2016-christmas-artwork.html,2016 Christmas Artwork Contest
 ,https://mtandre.github.io/mjs-bookmarklets/,MJS Clickability CMS Bookmarklets
