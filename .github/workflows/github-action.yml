@@ -37,7 +37,8 @@ jobs:
 
       - name: clean
         run: |
-          shopt -s extglob && rm -r !(build)
+          shopt -s extglob 
+          "rm -r !(build)"
           cp -a build/. .
           rm -r build/
 
